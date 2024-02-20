@@ -51,18 +51,18 @@ This tool only demonstrates how phishing works. <b>You shall not misuse the info
 
 ### Installation
 
-- Just, Clone this repository -
+- Just clone this repository -
   ```
   git clone --depth=1 https://github.com/hankypoo7/zphish.git
   ```
 
-- Now go to cloned directory and run `zphish.sh` -
+- Now go to the cloned directory and run `zphish.sh` -
   ```
   $ cd zphish
   $ bash zphisher.sh
   ```
 
-- On first launch, It'll install the dependencies and that's it. ***Zphish*** is installed.
+- On first launch, it'll install the dependencies and that's it. ***Zphish*** is installed.
 
 ##
 
