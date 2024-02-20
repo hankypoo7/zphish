@@ -6,10 +6,10 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-2.3.5-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/htr-tech/zphisher?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/htr-tech/zphisher?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/htr-tech/zphisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/htr-tech/zphisher?color=teal&style=for-the-badge">
+  <img src="https://img.shields.io/github/license/hankypoo7/zphish?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/hankypoo7/zphish?style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/hankypoo7/zphish?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/hankypoo7/zphish?color=teal&style=for-the-badge">
 </p>
 
 <p align="center">
