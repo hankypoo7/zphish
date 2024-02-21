@@ -1,24 +1,3 @@
-/*1529859653,,JIT Construction: v4041800,en_US*/
-
-/**
- * Copyright (c) 2017-present, Facebook, Inc. All rights reserved.
- *
- * You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
- * copy, modify, and distribute this software in source code or binary form for use
- * in connection with the web services and APIs provided by Facebook.
- *
- * As with any software that integrates with the Facebook platform, your use of
- * this software is subject to the Facebook Platform Policy
- * [http://developers.facebook.com/policy/]. This copyright notice shall be
- * included in all copies or substantial portions of the software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
- * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
- * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
- * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
- * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- */
 try {window.FB|| (function(window, fb_fif_window) {  var apply = Function.prototype.apply;  function bindContext(fn, thisArg) {    return function _sdkBound() {      return apply.call(fn, thisArg, arguments);    };  }  var global = {    __type: 'JS_SDK_SANDBOX',    window: window,    document: window.document  };  var sandboxWhitelist = [    'setTimeout',    'setInterval',    'clearTimeout',    'clearInterval'  ];  for (var i = 0; i < sandboxWhitelist.length; i++) {    global[sandboxWhitelist[i]] = bindContext(      window[sandboxWhitelist[i]],      window    );  }  (function() {    var self = window;    var __DEV__ = 0;    function emptyFunction() {};    var __transform_includes = {};    var __annotator, __bodyWrapper;    var __w, __t;    var undefined;    var __p;    with (this) {      (function(){var a={},b=function(a,b){if(!a&&!b)return null;var c={};typeof a!=="undefined"&&(c.type=a);typeof b!=="undefined"&&(c.signature=b);return c},c=function(a,c){return b(a&&/^[A-Z]/.test(a)?a:undefined,c&&(c.params&&c.params.length||c.returns)?"function("+(c.params?c.params.map(function(a){return/\?/.test(a)?"?"+a.replace("?",""):a}).join(","):"")+")"+(c.returns?":"+c.returns:""):undefined)},d=function(a,b,c){return a},e=function(a,b,d){"sourcemeta"in __transform_includes&&(a.__SMmeta=b);if("typechecks"in __transform_includes){b=c(b?b.name:undefined,d);b&&__w(a,b)}return a},f=function(a,b,c){return c.apply(a,b)},g=function(a,b,c,d){d&&d.params&&__t.apply(a,d.params);c=c.apply(a,b);d&&d.returns&&__t([c,d.returns]);return c},h=function(b,c,d,e,f){if(f){f.callId||(f.callId=f.module+":"+(f.line||0)+":"+(f.column||0));e=f.callId;a[e]=(a[e]||0)+1}return d.apply(b,c)};typeof __transform_includes==="undefined"?(__annotator=d,__bodyWrapper=f):(__annotator=e,"codeusage"in __transform_includes?(__annotator=d,__bodyWrapper=h,__bodyWrapper.getCodeUsage=function(){return a},__bodyWrapper.clearCodeUsage=function(){a={}}):"typechecks"in __transform_includes?__bodyWrapper=g:__bodyWrapper=f)})();
 __t=function(a){return a[0]},__w=function(a){return a};
 var require,__d;(function(a){var b={},c={},d=["global","require","requireDynamic","requireLazy","module","exports"];require=function(d,e){if(Object.prototype.hasOwnProperty.call(c,d))return c[d];if(!Object.prototype.hasOwnProperty.call(b,d)){if(e)return null;throw new Error("Module "+d+" has not been defined")}e=b[d];var f=e.deps,g=e.factory.length,h,i=[];for(var j=0;j<g;j++){switch(f[j]){case"module":h=e;break;case"exports":h=e.exports;break;case"global":h=a;break;case"require":h=require;break;case"requireDynamic":h=null;break;case"requireLazy":h=null;break;default:h=require.call(null,f[j])}i.push(h)}e.factory.apply(a,i);c[d]=e.exports;return e.exports};__d=function(a,e,f,g){typeof f==="function"?(b[a]={factory:f,deps:d.concat(e),exports:{}},g===3&&require.call(null,a)):c[a]=f}})(this);
