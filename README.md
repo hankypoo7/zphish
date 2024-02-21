@@ -84,22 +84,6 @@ $ zphisher
 
 ##
 
-### Installation via ".deb" file
-
-- Download `.deb` files from the [**Latest Release**](https://github.com/hankypoo7/zphish/releases/latest)
-- If you are using ***termux*** then download the `*_termux.deb`
-
-- Install the `.deb` file by executing
-  ```
-  apt install <your path to deb file>
-  ```
-  Or
-  ```
-  $ dpkg -i <your path to deb file>
-  $ apt install -f
-  ```
-
-##
 
 ### Run on Docker
 
@@ -151,11 +135,6 @@ $ zphisher
 </details>
 
 ##
-
-<h3 align="center"><i>:: Workflow ::</i></h3>
-<p align="center">
-<img src=".github/misc/workflow.gif"/>
-</p>
 
 ##
 
